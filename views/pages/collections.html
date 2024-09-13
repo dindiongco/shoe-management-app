@@ -1,0 +1,10 @@
+{% extends 'layouts/main.html' %}
+		
+{% block content %}
+    <h1>Welcome to the Shoe Collection</h1>
+    <ul>
+        {% for shoe in shoes %}
+          <li>{{ shoe.name }}, {{ shoe.brand }}, £{{ shoe.price }}, {{ shoe.description }}</li>
+        {% endfor %}
+      </ul>
+{% endblock %}
