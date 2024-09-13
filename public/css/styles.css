@@ -1,17 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 
 :root {
-  --clr-primary-200: hsl(180, 66%, 75%);
-  --clr-primary-400: hsl(180, 66%, 49%);
+  --clr-primary-200: hsl(26, 100%, 55%);
+  --clr-primary-400: hsl(25, 100%, 94%);
 
-  --clr-secondary-400: hsl(0, 87%, 67%);
+  /* --clr-secondary-400: hsl(220, 14%, 75%);
 
-  --clr-accent-400: hsl(257, 27%, 26%);
+  --clr-accent-400: hsl(223, 64%, 98%); */
 
-  --clr-neutral-100: hsl(0, 0%, 75%);
-  --clr-neutral-200: hsl(257, 7%, 63%);
-  --clr-neutral-800: hsl(255, 11%, 22%);
-  --clr-neutral-900: hsl(260, 8%, 14%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(223, 64%, 98%);
+  --clr-neutral-300: hsl(220, 14%, 75%);
+  --clr-neutral-700: hsl(219, 9%, 45%);
+  --clr-neutral-800: hsl(220, 13%, 13%);
+  --clr-neutral-900: hsl(0, 0%, 0%);
 
   --ff-primary: "Poppins", sans-serif;
   --ff-body: var(--ff-primary);
