@@ -171,14 +171,14 @@ body {
 
 /* form */
 
-.form-wrapper {
+/* .form-wrapper {
   background: var(--clr-accent-400);
   background-image: url("../src/assets/bg-shorten-mobile.svg");
   background-position: 7rem -3rem;
   background-repeat: no-repeat;
   padding: var(--size-300) var(--size-700);
   border-radius: 2vw;
-}
+} */
 
 .form-control {
   display: grid;
